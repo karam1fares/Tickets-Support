@@ -1,0 +1,12 @@
+pandas
+matplotlib
+seaborn
+scikit-learn
+transformers
+sentence-transformers
+faiss-cpu
+fastapi
+pydantic
+uvicorn
+SQLAlchemy
+python-dotenv
