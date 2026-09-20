@@ -1,12 +1,19 @@
-venv/
+# Secrets & Environment
 .env
+*.env
+
+# Python & Virtual Environments
+venv/
 __pycache__/
+*.pyc
+
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+
+# Large Datasets & Model Artifacts
 data/*.csv
-data/*.db
-*.pt
-*.pth
-*.safetensors
-*.bin
-models/distilbert_results/
+data/warehouse.db
 rag/faiss_index.bin
 rag/metadata.pkl
+models/
